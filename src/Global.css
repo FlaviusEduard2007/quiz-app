@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Ubuntu:wght@500;700&display=swap");
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #007bff;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 600px;
+  padding: 30px 30px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.baseQuestion {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+.baseAnswer {
+  border: 1px solid #a8d6fe;
+  background-color: #f0f8ff;
+  margin: 10px 0px;
+  padding: 8px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.greenIcon {
+  color: #3a984f;
+}
+
+.redIcon {
+  color: #a33139;
+}
+
+.correctAnswer {
+  border: 1px solid #d4edda;
+  background-color: #d4edda;
+  color: #71866a;
+}
+.wrongAnswer {
+  border: 1px solid #f8d7da;
+  background-color: #f8d7da;
+  color: #bc8b8f;
+}
+.baseAnswer:hover {
+  cursor: pointer;
+}

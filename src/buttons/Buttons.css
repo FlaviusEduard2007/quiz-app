@@ -1,0 +1,20 @@
+.baseButton {
+    color: #ffffff;
+    background-color: #3F82B7;
+    padding: 13px 23px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin-right: 14px;
+}
+
+.baseButton:hover {
+    cursor: pointer;
+}
+
+.disabledButton {
+    opacity: 0.56;
+}
+.disabledButton:hover {
+    cursor: default;
+}
