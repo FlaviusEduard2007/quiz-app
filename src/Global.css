@@ -31,10 +31,11 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 .baseAnswer {
+  height: 42px;
   border: 1px solid #a8d6fe;
   background-color: #f0f8ff;
   margin: 10px 0px;
-  padding: 8px 10px;
+  padding: 0px 10px;
   border-radius: 4px;
   display: flex;
   align-items: center;

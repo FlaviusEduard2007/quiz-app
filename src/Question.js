@@ -1,8 +1,6 @@
 function Question(props) {
   return (
-    <div
-        className="baseQuestion"
-    >    
+    <div className="baseQuestion">
       {props.index}. {props.text}
     </div>
   );
